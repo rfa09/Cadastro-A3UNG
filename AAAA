@@ -1,0 +1,42 @@
+//Algritmo de pessoas fisicas para empresa
+
+VAR
+
+	//Declaração de variaveis
+	nome: n_RG, N_cpf: caracter
+	idade: inteiro
+
+Inicio
+	//Criação do cadastro do funcionário
+	escreval("Informe o nome do funcionario")
+	leia(nome)
+	
+	escreval("Informe o numero do RG")
+	leia(n_RG)
+	escrevaç("Informe o numero do CPF")
+	leia(n_CPF)
+
+	escreval("Informe a idade")
+	leia (idade)
+
+	se(idade<16) faca
+	escreva("Não pode trabalhar")
+	
+	se(idade<=16) e (idade>=18) faca
+	escreval("Jovem Aprendiz")
+	
+	se (idade>18)
+	escreval("Pode trabalhar como PJ ou CLT")
+	
+	
+	
+	se( idade >=16)
+	escreva( "TJ, CLT")
+
+	//Consulta do funcionario
+	escreva("Nome:","nome,"Numero do RG",n_RG,,"Numero do CPF",n_CPF,"Sua idade é:",idade")
+
+	escreval("Deseja cadastrar um novo funcionario: s/n"
+	leia(repetirCadastro)
+
+Fimalgoritmo
